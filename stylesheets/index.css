@@ -139,6 +139,12 @@ footer {
   text-align: right;
 }
 
+/* IDs */
+
+#logo {
+  max-width: 200px;
+}
+
 /* Classes */
 
 .border {
