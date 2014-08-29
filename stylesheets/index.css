@@ -1,0 +1,133 @@
+body {
+  max-width: 60ch;
+  margin: 60px auto;
+  font: 22px "Borgia Pro";
+  color: #191919;
+}
+
+/* h1 */
+.class-for-60px {
+  font-size: 2.7273em; /* 60px */
+  line-height: 1.2500em; /* 75px */
+  margin-top: 0.4167em;
+  margin-bottom: 0.0000em;
+}
+/* h2 */
+.class-for-36px {
+  font-size: 1.6364em; /* 36px */
+  line-height: 1.3889em; /* 50px */
+  margin-top: 0.6944em;
+  margin-bottom: 0.0000em;
+}
+/* h3 */
+.class-for-24px {
+  font-size: 1.0909em; /* 24px */
+  line-height: 1.0417em; /* 25px */
+  margin-top: 1.0417em;
+  margin-bottom: 0.0000em;
+}
+/* Body */
+.class-for-22px {
+  font-size: 1.0000em; /* 22px */
+  line-height: 1.1364em; /* 25px */
+  margin-top: 1.1364em;
+  margin-bottom: 0.0000em;
+}
+/* h4 */
+.class-for-18px {
+  font-size: 0.8182em; /* 18px */
+  line-height: 1.3889em; /* 25px */
+  margin-top: 1.3889em;
+  margin-bottom: 0.0000em;
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5 {
+  text-rendering: optimizeLegibility;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 2.7273em; /* 60px */
+  line-height: 1.2500em; /* 75px */
+  margin-top: 0.4167em;
+  margin-bottom: 0.0000em;
+}
+
+h2 {
+  font-size: 1.6364em; /* 36px */
+  line-height: 1.3889em; /* 50px */
+  margin-top: 0.6944em;
+  margin-bottom: 0.0000em;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.0909em; /* 24px */
+  line-height: 1.0417em; /* 25px */
+  margin-top: 1.0417em;
+  margin-bottom: 0.0000em;
+}
+
+h4 {
+  font-size: 0.8182em; /* 18px */
+  line-height: 1.3889em; /* 25px */
+  margin-top: 0.0000em;
+  margin-bottom: 1.3889em;
+  color: #BDB7B4;
+}
+
+p {
+  font-size: 1em; /* 22px */
+  line-height: 1.1364em; /* 25px */
+  margin: 0 0 1.1364em 0;
+}
+
+a {
+  font-size: 0.7273em; /* 16px */
+  line-height: 1.5625em; /* 25px */
+  margin: 0 0 1.5625em 0;
+  color: #07598C;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+article > header > h1 + p {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Elements */
+
+nav {
+  margin: 1em 0; 
+  border-top: 2px solid #BDB7B4;
+  border-bottom: 6px solid #191919;
+}
+  nav > p {
+    margin: 5px 16px;
+  }
+
+  nav > p > a {
+    margin: 0 8px;
+    text-decoration: none;
+  }
+
+main {
+  margin: auto 16px;
+}
+
+footer {
+  text-align: right;
+}
+
+/* Classes */
+
+.border {
+  width: 100%;
+  height: 4px;
+  border-top: 6px solid #191919;
+  border-bottom: 2px solid #BDB7B4;
+}
