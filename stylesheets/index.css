@@ -66,6 +66,10 @@ article > header > h1 + p {
 
 /* Elements */
 
+header[role=banner] {
+  margin: auto 16px;
+}
+
 nav {
   margin: 1em 0; 
   border-top: 2px solid #BDB7B4;
