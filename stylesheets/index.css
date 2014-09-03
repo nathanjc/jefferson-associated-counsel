@@ -116,6 +116,7 @@ article > header > h1 + p {
 
 header[role=banner] {
   margin: auto 16px;
+  text-align: center;
 }
 
 nav {
