@@ -1,0 +1,51 @@
+extends layout
+
+block content
+  nav
+    img#logo(src='images/logo.png')
+    dl
+      dt
+        a.current(href='/') Home
+      dt
+        a(href='/about') About Us
+      dt
+        a(href='/resources') Resources
+      dt
+        a(href='/contact') Contact Us
+    h5
+      | Jefferson
+      br
+      | Associated
+      br
+      | Counsel
+  main(role='content')
+    header(role='banner')
+      h1 Jefferson Associated Counsel
+      h2 Public Defense Office for Jefferson County, Washington
+    article
+      section
+        h3
+          a(href='/about') About Us
+        p
+          | Jefferson Associated Counsel (JAC) organized as a 501(c)(3) non-profit in 2005 to improve the delivery of criminal defense services to the poor in Jefferson County Courts. We provide representation in felony, misdemeanor, juvenile, and dependency cases.
+          a(href='/about') Read More …
+      section
+        h3
+          a(href='/resources') FAQ & Resources
+        p
+          | Here are FAQ’s and useful resources.
+          a(href='/resources') Read More …
+      section
+        h3
+          a(href='/contact') Contact Us
+        address
+          p
+            | 624 Polk St
+            br
+            | Port Townsend, WA
+            br
+            | 98368
+            br
+            | (360) 385-5613
+        p
+          iframe(src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2663.6663756358375!2d-122.76141409999998!3d48.116671200000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548fedc79b044371%3A0xd553d478b255fcdb!2s624+Polk+St%2C+Port+Townsend%2C+WA+98368!5e0!3m2!1sen!2sus!4v1409801191837', width='400', height='300', frameborder='0', style='border:0')
