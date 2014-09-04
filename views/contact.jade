@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  nav
+    img#logo(src='images/logo.png')
+    dl
+      dt
+        a(href='/') Home
+      dt
+        a(href='/about') About Us
+      dt
+        a(href='/resources') Resources
+      dt
+        a.current(href='/contact') Contact Us
+    h5
+      | Jefferson
+      br
+      | Associated
+      br
+      | Counsel
+  main(role='content')
+    header(role='banner')
+      h1 Jefferson Associated Counsel
+      h2 Public Defense Office for Jefferson County, Washington
+    article
+      section
+        h3 Our Law Office
+        address
+          p
+            | 624 Polk Street
+            br
+            | Port Townsend, WA 98368
+            br
+            em Email
+            strong
+              | ·
+              a.regular_link(href='mailto:attorney@ptdefense.com') attorney@ptdefense.com
+            br
+            em Phone
+            strong
+              | ·
+              span (360) 379-8906
+            br
+            em Fax
+            strong
+              | ·
+              span (360) 385-4012
+            br
+            a(href='http://www.google.com/maps/search/624+Polk+St,+Port+Townsend,+WA+98368/', target='#') get directions →
+      section
+        h3 Jefferson County Courthouse
+        address
+          p
+            | 1820 Jefferson Street
+            br
+            | Port Townsend, WA 98368
+            br
+            em District Court
+            strong
+              | ·
+              span (360) 385-9135
+            br
+            em Superior Court
+            strong
+              | ·
+              span (360) 385-9125
+            br
+            a(href='https://www.google.com/maps/place/1820+Jefferson+St,+Port+Townsend,+WA+98368/', target='#') get directions →

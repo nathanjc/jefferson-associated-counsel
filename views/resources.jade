@@ -1,0 +1,87 @@
+extends layout
+
+block content
+  nav
+    img#logo(src='images/logo.png')
+    dl
+      dt
+        a(href='/') Home
+      dt
+        a(href='/about') About Us
+      dt
+        a.current(href='/resources') Resources
+      dt
+        a(href='/contact') Contact Us
+    h5
+      | Jefferson
+      br
+      | Associated
+      br
+      | Counsel
+  main(role='content')
+    header(role='banner')
+      h1 Jefferson Associated Counsel
+      h2 Public Defense Office for Jefferson County, Washington
+    article
+      header
+        h1 FAQ’s
+        p These are the most common questions we get.
+      section
+        h3 How do I get a Public Defender?
+        p
+          | Fill out a “Indigency Screening Form” at the Superior Court Clerk’s office if you are charged with a felony crime, or the District Court Clerk’s office if you are charged with a misdemeanor crime. If you qualify, our office will assign a lawyer to your case.
+      section
+        h3 I have a warrant out for my arrest, so how do I quash (terminate) it?
+        p
+          | For a felony warrant out of
+          i Superior Court
+          | :
+        p
+          | You can post the bail in person, or through a bail bondsman, at the Jefferson County Superior Court Clerk’s Office. Alternatively, turn yourself in at the jail by 8AM and you will likely have a hearing the same day.
+        p
+          | *At the hearing, the Judge will decide whether to post further bail, so turning yourself in is no guarantee that you will get to leave the jail afterward.
+        p
+          | For a misdemeanor warrant out of
+          i District Court
+          | :
+        p
+          | Show up to the Friday “Warrant Quash” Calendar before 10AM with $100 and a photo ID. Pay the District Court Clerk’s Office and they will put you on the calendar. You can only do this one time per criminal charge.
+        p
+          | Alternatively you can pay the full amount of bail to the District Court Clerk, at any time, in person or through a bail bond company.
+        p
+          | *Remember, although the Judge sometimes offers cash bail (10% of the bail bond amount), this is not the rule, so you may be arrested on the spot for not having the entire bail bond amount. Call our office to find out your bail amount.
+      section
+        h3 When is my next court date?
+        p
+          a(href='http://dw.courts.wa.gov/?fa=home.fmcdTerms') Find My Court Date
+        p To verify, call our office, or the correct Clerk’s Office.
+      article
+        header
+          h1 Resources
+        section
+          h3 Jefferson County District Court Clerk’s Office
+          p (360) 385-9135
+        section
+          h3 Jefferson County Superior Court Clerk’s Office
+          p (360) 385-9125
+        section
+          h3 Diversion
+          p
+            a(href='http://www.friendshipdiversion.org/') Friendship Diversion
+          address
+            p
+              | 2011 Water Street
+              br
+              | Port Townsend, WA 98368
+              br
+              | (360) 379-9482
+        section
+          h3 Bail Bonds
+          p Signature Bail Bonds
+          p (888) 694-6008
+          p All-Pro Bail Bonds
+          p (866) 966-2245
+        section
+          h3 Civil Legal Aid (Divorce, Child Custody, Tenant Rights, Foreclosure, etc.)
+          p Northwest Justice Project
+          p (888) 201-1014
