@@ -12,7 +12,9 @@ $app->register(new Silex\Provider\MonologServiceProvider(), array(
 
 // Our web handlers
 
-$app->get('/', include 'home.html';);
+$app->get('/', function() use($app) {
+  return $app['monolog']->render('hello.twig',
+});
 
 $app->run();
 
