@@ -115,6 +115,14 @@ p {
   line-height: 1.556;
 }
 
+p > a {
+  color: #9B2621;
+  text-decoration: underline;
+}
+  p > a:hover {
+    color: #E83B3C;
+  }
+
 /* Elements */
 
 main {
@@ -161,7 +169,12 @@ nav a {
   white-space: nowrap;
 }
 
-nav a:hover, nav a.current {
+nav a:hover {
+  background-color: #E1DEC5;
+  color: #9B2621;
+}
+
+nav a.current {
   background-color: #FFECB3;
   color: #9B2621;
 }
