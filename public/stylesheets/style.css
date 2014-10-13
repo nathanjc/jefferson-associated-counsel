@@ -135,6 +135,10 @@ main {
   background-color: #FAFAFA;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 section {
   margin-top: 60px;
 }
@@ -191,6 +195,10 @@ address {
 }
 
 /* Classes */
+
+.inline-image {
+  max-width: 60ch;
+}
 
 span.gc-cs-link {
   color: #212121;
