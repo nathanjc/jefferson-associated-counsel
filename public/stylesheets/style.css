@@ -190,11 +190,40 @@ address {
 
 /* IDs */
 
+#mobile-nav-bar {
+  background-color: #E1DEC5;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  z-index: 10;
+}
+
 #logo {
   max-width: 100px;
 }
 
+nav#mobile-nav.hidden {
+  display: none;
+}
+
 /* Classes */
+
+.hamburger-button {
+  background-image: url(images/hamburger.svg);
+  left: 12px;
+  outline: none;
+  background: transparent center center no-repeat;
+  background-size: 24px 24px;
+  border: 0;
+  display: block;
+  height: 48px;
+  overflow: hidden;
+  top: 8px;
+  width: 48px;
+  z-index: 999;
+  position: fixed;
+}
 
 .inline-image {
   max-width: 60ch;
@@ -230,4 +259,24 @@ span.gc-cs-link {
   -webkit-transition-delay: 0;
   -moz-transition-delay: 0;
   transition-delay: 0;
+}
+
+@media only screen and (max-width : 923px) {
+  nav#desktop-nav {
+    display: none;
+  }
+
+  nav#mobile-nav {
+    display: inherit;
+    position: fixed;
+    border-left: none;
+  }
+
+  main {
+    margin: auto;
+    height: 100%;
+    position: static;
+    padding: 24px 60px;
+    padding-bottom: 35px;
+  }
 }
