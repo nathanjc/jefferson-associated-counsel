@@ -1,7 +1,27 @@
 extends layout
 
 block content
-  nav
+  nav#desktop-nav
+    img#logo(src='images/logo.png')
+    dl
+      dt
+        a(href='/') Home
+      dt
+        a.current(href='/about') About Us
+      dt
+        a(href='/resources') Resources
+      dt
+        a(href='/contact') Contact Us
+    h5
+      | Jefferson
+      br
+      | Associated
+      br
+      | Counsel
+
+  #mobile-nav-bar
+    img#show-nav.hamburger-button(src="../images/hamburger.svg")
+  nav#mobile-nav.hidden
     img#logo(src='images/logo.png')
     dl
       dt
