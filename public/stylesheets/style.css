@@ -225,6 +225,15 @@ nav#mobile-nav.hidden {
   cursor: pointer;
 }
 
+.img-link {
+  padding: 0;
+  margin: 0;
+}
+
+  .img-link:hover {
+    background: none;
+  }
+
 .inline-image, iframe {
   max-width: 60ch;
   width: 100%;

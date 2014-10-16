@@ -2,7 +2,8 @@ extends layout
 
 block content
   nav#desktop-nav
-    img#logo(src='images/logo.png')
+    a.img-link(href="/")
+      img#logo(src='images/logo.png')
     dl
       dt
         a(href='/') Home
@@ -23,7 +24,8 @@ block content
     img#show-nav.hamburger-button(src="../images/hamburger.svg")
     h5 Jefferson Associated Counsel
   nav#mobile-nav.hidden
-    img#logo(src='images/logo.png')
+    a.img-link(href="/")
+      img#logo(src='images/logo.png')
     dl
       dt
         a(href='/') Home
