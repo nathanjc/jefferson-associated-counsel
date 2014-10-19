@@ -22,12 +22,12 @@ Finally boot up your application:
 
     npm start
 
-Then open up your favorite browser, go to [localhost:3000](//localhost:3000) and your application should be there. Hurrah!
+Then open up your favorite browser, go to [localhost:3000](localhost:3000) and your application should be there. Hurrah!
 
 ===
 
 ### Editing content
 
-All content files are in the /views directory. Visit [jade-lang.com](http://jade-lang.com/) for reference.
+All content files are in the `/views` directory. Visit [jade-lang.com](http://jade-lang.com/) for reference.
 
 Once you’ve edited something you can push the content up to github, then ssh into the server and pull the updates down.
