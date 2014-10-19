@@ -1,4 +1,5 @@
-# JAC
+# Jefferson Associated Counsel
+Public Defense Office for Jefferson County, Washington
 
 ### Getting started
 
